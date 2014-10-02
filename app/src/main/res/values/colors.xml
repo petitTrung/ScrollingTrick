@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="top_item">@android:color/holo_red_dark</color>
+    <color name="bottom_item">@android:color/holo_blue_dark</color>
+    <color name="bottom_item_alt">@android:color/holo_green_dark</color>
+</resources>

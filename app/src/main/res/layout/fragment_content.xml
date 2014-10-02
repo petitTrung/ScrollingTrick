@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.adva.scrollingtrick.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/scroll_view"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View style="@style/Item.Top" />
+
+            <View android:id="@+id/placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="100dip" />
+
+            <View style="@style/Item.Bottom" />
+            <View style="@style/Item.Bottom.Alt" />
+            <View style="@style/Item.Bottom" />
+            <View style="@style/Item.Bottom.Alt" />
+            <View style="@style/Item.Bottom" />
+            <View style="@style/Item.Bottom.Alt" />
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/sticky" style="@style/Item.Sticky" />
+
+    </FrameLayout>
+
+</com.adva.scrollingtrick.ObservableScrollView>
